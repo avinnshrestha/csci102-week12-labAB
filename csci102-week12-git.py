@@ -59,3 +59,11 @@ def ScoreFinder(list1, list2, string1): #players, scores, name
         print('OUTPUT player not found')
 ScoreFinder(players,scores,'Jill')
 
+#6. Union
+
+def Union(list1,list2):
+    list3 = list1 + list2
+    print('OUTPUT', list3)
+    return list3
+#Union(scores,players2)
+
