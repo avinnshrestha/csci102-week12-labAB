@@ -67,3 +67,13 @@ def Union(list1,list2):
     return list3
 #Union(scores,players2)
 
+#7. Intersection
+
+def Intersection(list1, list2):
+    list3 = []
+    for string in list1:
+        if string in list2:
+            list3.append(string)
+    return list3
+print('OUTPUT', Intersection(players,players2))
+
