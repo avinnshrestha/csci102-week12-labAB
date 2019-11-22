@@ -18,5 +18,15 @@ def LoadFile(file):
     read_lines = list(map(lambda x:x.strip(),read_lines))
     return read_lines
 
+#3. UpdateString
+
+def UpdateString(string1, string2, index):
+    list1 = []
+    for char in string1:
+        list1 += char
+    list1[index] = string2
+    print('OUTPUT', ''.join(list1))
+
+#UpdateString('Hello World', 'a', 3)
 
 
