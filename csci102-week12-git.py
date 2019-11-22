@@ -40,3 +40,22 @@ def FindWordCount(list1, string1):
     print(count)
     return count
 
+FindWordCount(['cat', 'dogcat', 'caccacc'],'c')
+
+'''Global Variables to test'''
+players = ["Mary", "Cody", "Joe", "Jill", "Xai", "Bodo"]
+players2 = ["Melvin", "Martian", "Baka", "Xai", "Cody"]
+scores = [5, 8, 10, 6, 10, 4]
+''''''
+
+#5. ScoreFinder
+
+def ScoreFinder(list1, list2, string1): #players, scores, name
+    if string1 in list1:
+        place = list1.index(string1)
+        score = list2[place]
+        print('OUTPUT ', string1, 'got a score of ', score)
+    else:
+        print('OUTPUT player not found')
+ScoreFinder(players,scores,'Jill')
+
