@@ -57,7 +57,7 @@ def ScoreFinder(list1, list2, string1): #players, scores, name
         print('OUTPUT ', string1, 'got a score of ', score)
     else:
         print('OUTPUT player not found')
-ScoreFinder(players,scores,'Jill')
+#ScoreFinder(players,scores,'Jill')
 
 #6. Union
 
@@ -75,5 +75,5 @@ def Intersection(list1, list2):
         if string in list2:
             list3.append(string)
     return list3
-print('OUTPUT', Intersection(players,players2))
+#print('OUTPUT', Intersection(players,players2))
 
