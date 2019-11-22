@@ -29,4 +29,14 @@ def UpdateString(string1, string2, index):
 
 #UpdateString('Hello World', 'a', 3)
 
+#4. FindWordCount
+
+def FindWordCount(list1, string1):
+    count = 0
+    list1 = (''.join(list1))
+    for string in list1:
+        if string == string1:
+            count += 1
+    print(count)
+    return count
 
